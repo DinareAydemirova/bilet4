@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        ul{
+            display: flex;
+            gap: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+    }
+}

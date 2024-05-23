@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.container .navbar ul {
+  display: flex;
+  gap: 15px;
+}
+.container .navbar a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=header.module.css.map */
